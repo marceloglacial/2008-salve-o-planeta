@@ -1,0 +1,114 @@
+
+/* Geral */
+html {
+	background:url(../img/fundao.jpg) repeat-x top left #C0CAAF;
+}
+body {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:80%;
+	color:#484848;
+	
+	margin:0;
+	padding:0;
+}
+hr {
+	display:none;
+}
+/* Site */
+#Site {
+	background:url(../img/fundo.jpg) no-repeat top left;		
+	height:560px;
+}
+
+/* Cabecalho */
+h1 {
+	margin:0;
+	padding:0;
+}
+h1 a {
+
+	display:block;
+	width:260px;
+	height:120px;
+	margin-left:500px;
+	text-indent:-9999px;	
+}
+
+/* Menu */
+#Menu {
+	position:absolute;
+	left:0;
+	top:115px;
+	margin-left:310px;
+	float:left;
+	margin-right:20px;
+}
+#Menu ul {
+	list-style:none;
+	text-align:right;
+}
+#Menu ul li {
+	width:110px;
+}
+#Menu ul li a {
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:100%;
+	color:#666;
+	text-decoration:none;
+}
+#Menu ul li a:hover {
+	color:#000;
+}
+#Menu ul li.ativo {
+	background:url("../img/menu_over.jpg") no-repeat bottom left;
+	padding-bottom:7px;
+}
+#Menu ul li.ativo a {
+	color:#000;
+}
+/* Conteudo */
+#Conteudo {
+	position:absolute;
+	top:140px;
+	left:525px;
+	padding:0 10px;
+	width:455px;
+	height:270px;
+	overflow:auto;
+}
+#Conteudo h2 {
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	text-decoration:underline;
+	margin:0 0 10px 0;
+	padding:0;
+	color:#000;
+}
+#Conteudo table {
+	border-collapse:collapse;
+	border-color:#484848;
+}
+#Conteudo table * {
+	border-color:#484848;
+}
+
+/* Rodape */
+#Rodape {
+	position:absolute;
+	top:435px;
+	left:20px;
+	height:100px;
+	font-size:90%;
+	color:#23320B;
+	padding-top:25px;
+}
+#Rodape .url {
+	background:url("../img/logo.jpg") no-repeat top left;
+	display:block;
+	height:50px;
+	width:100px;
+	text-indent:-9999px;
+	float:left;
+	position:relative;
+	margin-right:10px;
+	top:-25px;
+}
