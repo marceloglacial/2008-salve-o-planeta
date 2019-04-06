@@ -9,8 +9,7 @@
 
 ## Live Demo
 
-https://glacial.gitlab.io/2008-salve-o-planeta/
-
+https://marceloglacial.github.io/2008-salve-o-planeta/front-end/
 
 
 ## Screnshots
